@@ -1,4 +1,75 @@
-const requests = 'https://www.freetogame.com/api/games'
-console.log(requests)
-
-export default requests
+const games = [
+  {
+    id: 0,
+    game: 'Dead island 2',
+    URL: 'https://image.api.playstation.com/vulcan/ap/rnd/202208/1012/SyX3pwXDmPfzSY6KsdCU6dfk.jpg',
+    sale: '-30%',
+    price: '$44.99',
+    newPrice: '$31.49',
+    category: 'BASE GAME',
+  },
+  {
+    id: 1,
+    game: 'Remnant 2',
+    URL: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1282100/capsule_616x353.jpg?t=1691690139',
+    sale: '-20%',
+    price: '$34.99',
+    newPrice: '$27.99',
+    category: 'BASE GAME',
+  },
+  {
+    id: 2,
+    game: 'The Last of Us™ Part I',
+    URL: 'https://image.api.playstation.com/vulcan/ap/rnd/202206/0720/aZKLRcjaZ8HL03ODxYMZDfaH.png',
+    sale: '-20%',
+    price: '$49.99',
+    newPrice: '$39.99',
+    category: 'BASE GAME',
+  },
+  {
+    id: 3,
+    game: 'Dead by Daylight',
+    URL: 'https://image.api.playstation.com/vulcan/ap/rnd/202203/1520/e6VbPQ56CBzVPgKmWdMMrICz.png',
+    sale: '-50%',
+    price: '$12.49',
+    newPrice: '$6.24',
+    category: 'BASE GAME',
+  },
+  {
+    id: 4,
+    game: 'Dying Light 2 Stay Human',
+    URL: 'https://image.api.playstation.com/vulcan/img/rnd/202106/2908/7aJhOMuJALdBPqZHVy3CgJsg.png',
+    sale: '-50%',
+    price: '$34.99',
+    newPrice: '$17.49',
+    category: 'BASE GAME',
+  },
+  {
+    id: 5,
+    game: 'Killing Floor 2',
+    URL: 'https://assets-prd.ignimgs.com/2022/01/25/killing-floor-2-button-1643073549748.jpg',
+    sale: '-80%',
+    price: '$15.99',
+    newPrice: '$3.19',
+    category: 'BASE GAME',
+  },
+  {
+    id: 6,
+    game: 'Alan Wake Remastered',
+    URL: 'https://image.api.playstation.com/vulcan/img/rnd/202109/2709/M8t8e9Qd34vBe5HGQNO5weV8.jpg',
+    sale: '-67%',
+    price: '$15.99',
+    newPrice: '$5.27',
+    category: 'BASE GAME',
+  },
+  {
+    id: 7,
+    game: 'SOMA',
+    URL: 'https://image.jeuxvideo.com/medias-sm/144302/1443024652-3908-jaquette-avant.jpg',
+    sale: '-80%',
+    price: '$15.99',
+    newPrice: '$3.19',
+    category: 'BASE GAME',
+  },
+]
+export default games

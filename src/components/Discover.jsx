@@ -2,7 +2,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 const Discover = () => {
 
   return (
-    <div className='flex items-center justify-center m-auto  w-[75%] '>
+    <div className='flex items-center justify-start m-auto'>
       <div className='flex justify-start items-center mt-7'>
         <div className='flex bg-[#202020] items-center justify-center rounded-3xl w-[240px] h-[40px] gap-5 '>
           <AiOutlineSearch className='text-gray-500' />

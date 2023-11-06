@@ -6,8 +6,11 @@ const App = () => {
   return (
     <>
       <Nav />
-      <Discover/>
-      <SpecialEvent/>
+      <div className='w-[75%] m-auto'>
+      <Discover />
+      <SpecialEvent />
+      </div>
+
     </>
   )
 }

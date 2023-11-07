@@ -12,6 +12,7 @@ const games = [
     id: 1,
     game: 'Remnant 2',
     URL: 'https://cdn1.epicgames.com/offer/aa598567414d42378187b8861da550f7/c6758576-ddd6-4601-b4bb-2769df3c7af3_1200x1600-1486abbf9a713a1d20d7facac9a34195?h=480&quality=medium&resize=1&w=360',
+    bigImgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ61d3fyltsDIrvdJgiwDmFSdGiBTdEFYx80OPPx3aYOW8mXq7xNhQOqy4xaqjron5FNUU&usqp=CAU',
     sale: '-20%',
     price: '$34.99',
     newPrice: '$27.99',

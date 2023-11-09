@@ -48,7 +48,8 @@ const Nav = () => {
 
           <div className='flex items-center gap-6'>
             <RiGlobalLine className='text-gray-500 text-2xl hover:text-gray-400 w-[26px] h-[26px]' />
-            <FiUser className='rounded-full bg-gray-700 p-2 text-gray-300 w-[35px] h-[35px] hover:text-gray-400' />
+            <a href="/login"> <FiUser className='rounded-full bg-gray-700 p-2 text-gray-300 w-[35px] h-[35px] hover:text-gray-400' /></a>
+           
             <button className='text-black bg-[#26bbff] rounded-md  w-[90px] h-[30px] hover:bg-[#4cacac]'>
               Download
             </button>

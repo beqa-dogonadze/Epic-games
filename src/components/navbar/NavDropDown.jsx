@@ -48,7 +48,7 @@ const NavDropDown = () => {
           <ul className='text-sm mt-10'>
             <h1 className='text-2xl '>Discover</h1>
             <li className='mt-3'>
-              <a href='/' className='flex items-center '>
+              <a href='/' className='flex items-center mt-[10px] hover:bg-[#444444] p-1 rounded-xl w-[220px]'>
                 <SiEpicgames className='text-xl mr-2' />
                 Epic Games Store
               </a>

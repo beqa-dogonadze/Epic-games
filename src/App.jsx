@@ -1,14 +1,15 @@
-import SearchStore from './components/SearchStore'
-import Nav from './components/Nav'
-import SpecialEvent from './components/SpecialEvent'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import SignIn from './pages/SignIn'
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <div className='w-[75%] m-auto mb-5'>
-        <SearchStore />
-        <SpecialEvent />
+      <div>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/login' element={<SignIn />} />
+        </Routes>
       </div>
     </>
   )

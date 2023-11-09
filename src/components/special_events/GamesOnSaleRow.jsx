@@ -1,8 +1,8 @@
 import React from 'react'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
-import DiscoverRow from '../pages/DiscoverRow'
-import SpecialGames from './SpecialGames'
-const SpecialEvent = ({ rowID }) => {
+import DiscoverRow from '../discover/DiscoverRow'
+import SpecialEventGames from './GamesOnSale'
+const GamesOnSaleRow = () => {
   return (
     <>
       <DiscoverRow />
@@ -21,9 +21,9 @@ const SpecialEvent = ({ rowID }) => {
             <MdChevronRight className='bg-gray-900 text-2xl text-white rounded-full' />
           </div>
         </div>
-        <SpecialGames />
+        <SpecialEventGames />
       </div>
     </>
   )
 }
-export default SpecialEvent
+export default GamesOnSaleRow

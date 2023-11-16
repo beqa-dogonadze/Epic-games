@@ -1,7 +1,7 @@
 import React from 'react'
-import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
+import { MdChevronRight } from 'react-icons/md'
 import DiscoverRow from '../discover/DiscoverRow'
-import SpecialEventGames from './GamesOnSale'
+import GamesOnSale from './GamesOnSale'
 const GamesOnSaleRow = () => {
   return (
     <>
@@ -16,12 +16,8 @@ const GamesOnSaleRow = () => {
               </span>
             </div>
           </div>
-          <div className='flex'>
-            <MdChevronLeft className='bg-gray-900 text-2xl text-white rounded-full' />
-            <MdChevronRight className='bg-gray-900 text-2xl text-white rounded-full' />
-          </div>
         </div>
-        <SpecialEventGames />
+        <GamesOnSale />
       </div>
     </>
   )

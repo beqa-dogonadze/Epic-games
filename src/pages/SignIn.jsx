@@ -62,20 +62,21 @@ const SignIn = () => {
         >
           Required
         </h1>
-        <button
-          className={isDisabled ? disabledbtn : notdisabledbtn}
-          disabled={isDisabled}
-          id='submit'
-        >
-          <a href={isDisabled ? '@' : '/'}>Continue</a>
-        </button>
+
+        <form action={isDisabled ? '@' : '/'}>
+          <input
+            className={isDisabled ? disabledbtn : notdisabledbtn}
+            disabled={isDisabled}
+            value='Continue'
+            type='submit'
+            id='submit'
+          />
+        </form>
+
         <hr className='text-xl text-black' />
         <div class='flex items-center justify-center'>
           <hr class='w-[370px] h-px my-8 bg-gray-200 border-0 dark:bg-gray-700' />
-          <span
-            class='absolute px-3 text-sm text-gray-400 bg-[#202020]'
-            style={{ userSelect: 'none' }}
-          >
+          <span class='absolute px-3 text-sm text-gray-400 bg-[#202020] select-none'>
             or continue with
           </span>
         </div>

@@ -7,9 +7,10 @@ const GamesOnSale = () => {
   const CustomPrevArrow = (props) => {
     return <MdChevronLeft className='text-white z-1' onClick={props.onClick} />
   }
-
   const CustomNextArrow = (props) => {
-    return <MdChevronRight className='text-white z-10' onClick={props.onClick} />
+    return (
+      <MdChevronRight className='text-white z-10' onClick={props.onClick} />
+    )
   }
 
   const settings = {
